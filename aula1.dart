@@ -4,7 +4,10 @@ void main() {
   int idade = 15;
   double valor = 587.80;
   String nome = "Rafael";
+  bool status = true; // |false
 
+  print ("$status");
+	
   print("Nome: $nome \nIdade: $idade \nValor: $valor");
 
   var codigo = 15;
