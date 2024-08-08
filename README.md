@@ -6,3 +6,6 @@ Aula 01
 - Tipagem de variáveis
 - Impressão
 - Operações aritméticas.
+- Estrutura de Condição.
+- Estrutura de Repetição.
+- POO
