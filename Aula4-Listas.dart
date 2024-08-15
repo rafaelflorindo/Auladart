@@ -24,12 +24,19 @@ void main() {
   print(idades);
   
   posicao = 4;
-  print("Posição [$posicao] = ${idades[posicao]}");
+  print("Posição [$posicao] = ${idades[posicao]}\n");
+  print("** Utilizando o laço FOR");
+  for(int i = 0; i < idades.length; i++){
+    print("Idades[${i}] = idades[${idades[i]}]");
+  }
   
-  /*for(int i = 0; ){
+  print("\n** Utilizando o laço WHILE");
+  int i = 0;
+  while(i < idades.length){
+    print("Idades[${i}] = idades[${idades[i]}]");
+    i++;
+  }
     
-  }*/
-  
   print("\n****************************************");
   print("Construindo lista do tipo double");
   print("******************************************");
@@ -71,4 +78,5 @@ void main() {
   print("Cliente: $nome $sobreNome");
   
   print("Cliente: $nome ${nomeClientes[nome]}");
+
 }
